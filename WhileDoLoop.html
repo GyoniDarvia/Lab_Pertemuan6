@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Do Loop</title>
+</head>
+<body>
+    <script>
+        var awal = Number (prompt("Masukkan Angka = ",));
+        var hasil = awal * 5;
+        var akhir = awal;
+
+        while(akhir <= hasil){
+            if(akhir < hasil){
+                document.write(akhir, " ,");
+            } else {
+                document.write(akhir);
+            }
+            akhir = akhir + awal;
+        }
+    </script>
+</body>
+</html>
